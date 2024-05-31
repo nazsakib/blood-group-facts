@@ -1,0 +1,46 @@
+-- Database name blood_group_facts created
+CREATE DATABASE IF NOT EXISTS blood_group_facts;
+
+-- use database
+USE blood_group_facts;
+
+-- create tables
+CREATE TABLE IF NOT EXISTS a_positive (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);
+
+CREATE TABLE IF NOT EXISTS a_negative (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);
+
+CREATE TABLE IF NOT EXISTS b_positive (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);
+
+CREATE TABLE IF NOT EXISTS b_negative (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);
+
+CREATE TABLE IF NOT EXISTS ab_positive (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);
+
+CREATE TABLE IF NOT EXISTS ab_negative (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);
+
+CREATE TABLE IF NOT EXISTS o_positive (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);
+
+CREATE TABLE IF NOT EXISTS o_negative (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    facts VARCHAR(355)
+);

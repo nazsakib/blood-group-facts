@@ -2,6 +2,12 @@ import $ from "jquery";
 
 $(document).ready(function () {
     $("#submitButton").click(function () {
+        $("#factsHeading").animate(
+            {
+                height: "toggle",
+            },
+            900
+        );
         $(".single-facts").each(function (index) {
             $(this)
                 .delay(index * 500)

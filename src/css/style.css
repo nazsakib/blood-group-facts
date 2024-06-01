@@ -3,7 +3,7 @@
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 22px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #e4e4e4;
     opacity: 0;
     transform: translateY(20px);

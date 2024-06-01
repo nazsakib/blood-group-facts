@@ -14,4 +14,7 @@ $(document).ready(function () {
                 });
         });
     });
+    // setTimeout(function () {
+    //     location.reload(true);
+    // }, 9000);
 });

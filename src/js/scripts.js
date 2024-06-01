@@ -1,13 +1,17 @@
 import $ from "jquery";
 
+//jquery code
 $(document).ready(function () {
     $("#submitButton").click(function () {
+        //heading animation - facts shwoing area
         $("#factsHeading").animate(
             {
                 height: "toggle",
             },
             900
         );
+
+        // animation for facts showing
         $(".single-facts").each(function (index) {
             $(this)
                 .delay(index * 500)

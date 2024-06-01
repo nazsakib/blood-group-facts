@@ -4,6 +4,12 @@ CREATE DATABASE IF NOT EXISTS blood_group_facts;
 -- use database
 USE blood_group_facts;
 
+-- granting permissions
+GRANT ALL PRIVILEGES ON blood_group_facts.* TO 'sakib'@'localhost' IDENTIFIED BY '8888';
+
+-- flush privileges
+FLUSH PRIVILEGES;
+
 -- create tables
 CREATE TABLE IF NOT EXISTS a_positive (
     ID INT AUTO_INCREMENT PRIMARY KEY,

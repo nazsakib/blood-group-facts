@@ -13,7 +13,7 @@
     <body class="bg-[#000000] h-screen w-full mx-auto relative">
         <!-- main area -->
         <main class="w-[50%] absolute top-[20%] left-[25%]">
-            <form action="" class="flex items-center justify-start">
+            <div class="flex items-center justify-center">
                 <!-- form area -->
                 <div
                     class="form-area w-[40%] bg-[#FCF7F7] rounded-l-md px-3 py-7 h-[600px]"
@@ -35,6 +35,7 @@
                         />
                         <button
                             type="submit"
+                            id="submitButton"
                             class="w-full text-xl font-bold uppercase text-white px-3 py-3 rounded-md bg-[#9A0001] hover:bg-[#8357ec] transition ease-in-out delay-90 cursor-pointer"
                         >
                             See Some Facts
@@ -42,11 +43,39 @@
                     </div>
                 </div>
 
-                <!-- fact area -->
+                <!-- fact show area -->
                 <div
-                    class="facts-show-area w-[60%] bg-[#8357ec] rounded-r-md px-3 py-7 h-[600px]"
-                ></div>
-            </form>
+                    class="facts-show-area w-[60%] bg-[#8357ec] rounded-r-md px-3 py-7 h-[600px] overflow-auto"
+                >
+                    <div class="showing-facts flex flex-col items-start gap-5">
+                        <p class="single-facts bg-[#32012F]">
+                            People with A+ blood group are known for their
+                            leadership skills.
+                        </p>
+                        <p class="single-facts bg-[#524C42]">
+                            A+ blood group individuals might be more susceptible
+                            to stress. Remember to take breaks and manage stress
+                            levels!
+                        </p>
+                        <p class="single-facts bg-[#32012F]">
+                            A+ blood donors are always needed! Consider donating
+                            to help others.
+                        </p>
+                        <p class="single-facts bg-[#524C42]">
+                            A+ blood group has both A and RhD antigens on its
+                            red blood cells.
+                        </p>
+                        <p class="single-facts bg-[#32012F]">
+                            A+ blood type might offer a slight advantage in
+                            fighting certain infections due to specific immune
+                            system characteristics.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </main>
+
+        <!-- scripts -->
+        <script type="module" src="/src/js/scripts.js"></script>
     </body>
 </html>

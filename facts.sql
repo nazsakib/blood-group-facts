@@ -1,4 +1,4 @@
--- Database name blood_group_facts created
+-- Database blood_group_facts created
 CREATE DATABASE IF NOT EXISTS blood_group_facts;
 
 -- use database
